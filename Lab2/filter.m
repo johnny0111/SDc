@@ -1,4 +1,4 @@
-function [xkk,pkk] = filter(A,B,C,w,v,y,k,x,u)
+function [xkk,pkk] = filter(model, xk, Pk, y, u, W, V)
 
 end
 
