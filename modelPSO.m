@@ -26,11 +26,11 @@ options = optimoptions(@particleswarm,'MaxIter',300,'SelfAdjustment',c1,...
 fun = @(theta)modelFitness(theta,dctr,yreal);
 
 [theta,fval] = particleswarm(fun,5,LB,UB,options)
-theta
+
 clc
 
-save modelpar2.mat theta -mat
+save modelpar.mat theta -mat
 
 modelsimul
 
-%theta
+theta

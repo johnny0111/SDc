@@ -1,3 +1,4 @@
+
 %%% Controlo óptimo de Seguimento %%%
 %%%        Pseudocódigo           %%%
 clear all, close, clc
